@@ -1,0 +1,40 @@
+
+body {
+  text-align: center;
+  font-size: 28pt;
+  display:table-cell;
+  background-color:#A7D5AF;
+  background-size:100%;
+  width:10%;
+  font-family: 'Courier New', monospace;
+}
+
+body.receipt {
+  background-color:#669999;
+}
+
+td.total {
+  background-color: #EE6E98;
+}
+
+th {
+  text-align: left;
+  background-color: #7B919F;
+}
+
+tr {
+  font-size: 20pt;
+  background-color: #CEAEE4;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-size: 18pt;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
